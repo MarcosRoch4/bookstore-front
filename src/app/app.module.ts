@@ -4,7 +4,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { HeaderComponent } from "./componentes/template/header/header.component";
+import { HeaderComponent } from "./components/template/header/header.component";
 
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { FooterComponent } from "./components/template/footer/footer.component";
@@ -14,9 +14,10 @@ import { MatListModule } from "@angular/material/list";
 import { MatIconModule } from "@angular/material/icon";
 import { HomeComponent } from './components/views/home/home.component';
 import {MatCardModule} from '@angular/material/card';
+import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent, CategoriaReadComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

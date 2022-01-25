@@ -28,7 +28,7 @@ git push -u origin master
 
 {TERMINAL}
 ng add @angular/material
-ng g c componentes/template/header
+ng g c components/template/header
 
 {NAVEGADOR}
 --Ir até o site de componentes do angular e copiar o link na guia de API
