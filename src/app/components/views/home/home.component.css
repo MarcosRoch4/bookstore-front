@@ -1,0 +1,14 @@
+.home{
+    width: 95%;
+    margin: 1rem auto;
+}
+
+@media(max-width: 450px)
+    .home {
+    wigth: 70%;
+}
+
+@media(max-width: 770px)
+    .home {
+    wigth: 90%;
+}
