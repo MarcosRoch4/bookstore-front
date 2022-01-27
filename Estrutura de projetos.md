@@ -37,7 +37,7 @@ https://material.angular.io/components/toolbar/api
 import {MatToolbarModule} from '@angular/material/toolbar';
 
 {PROJETO}
---ir até a pasta (componentes/template/header) para programar 
+--ir até a pasta (componentes/template/header) para programar
 -- no arquivo app.module.ts
 e colar, Em import do toolbar copiar o (MatToolbarModule) e colar abaixo no imports:[] e salvar o arquivo.
 -- em app.component.html, remover o App Works, e incluir <app-header></app-header> e salvar o arquivo;
@@ -74,3 +74,22 @@ https://material.angular.io/components/card/api
 {PROJETO}
 -- no arquivo app.module.ts
 e colar, Em import do toolbar copiar o (MatCardModule) e colar abaixo no imports:[] e salvar o arquivo.
+
+{NAVEGADOR}
+import {MatTableModule} from '@angular/material/table';
+https://material.angular.io/components/table/api
+
+{PROJETO}
+-- no arquivo app.module.ts
+e colar, Em import do toolbar copiar o (MatTableModule) e colar abaixo no imports:[] e salvar o arquivo.
+--na pasta "categoria" criar o arquivo categoria.model.ts
+--no arquivo "environment.ts" inserir o caminha da API na linha da baseUrl:''
+
+{TERMINAL}
+ng g s components/views/categoria/categoria
+
+{PROJETO}
+-- no arquivo app.module.ts
+adicionar o import do httpmodule
+import { HttpClientModule } from "@angular/common/http";
+e colar, Em import do toolbar copiar o (HttpClientModule) e colar abaixo no imports:[] e salvar o arquivo.
