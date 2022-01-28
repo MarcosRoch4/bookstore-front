@@ -16,7 +16,10 @@ import { MatIconModule } from "@angular/material/icon";
 import { HomeComponent } from "./components/views/home/home.component";
 import { MatCardModule } from "@angular/material/card";
 import { MatTableModule } from "@angular/material/table";
+import {MatButtonModule} from '@angular/material/button';
+
 import { CategoriaReadComponent } from "./components/views/categoria/categoria-read/categoria-read.component";
+
 
 @NgModule({
   declarations: [
@@ -38,6 +41,7 @@ import { CategoriaReadComponent } from "./components/views/categoria/categoria-r
     MatCardModule,
     MatTableModule,
     HttpClientModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

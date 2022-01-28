@@ -93,3 +93,11 @@ ng g s components/views/categoria/categoria
 adicionar o import do httpmodule
 import { HttpClientModule } from "@angular/common/http";
 e colar, Em import do toolbar copiar o (HttpClientModule) e colar abaixo no imports:[] e salvar o arquivo.
+
+{NAVEGADOR}
+https://material.angular.io/components/button/api
+import {MatButtonModule} from '@angular/material/button';
+
+{PROJETO}
+-- no arquivo app.module.ts
+e colar, Em import do toolbar copiar o (MatButtonModule) e colar abaixo no imports:[] e salvar o arquivo.
