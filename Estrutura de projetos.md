@@ -95,9 +95,31 @@ import { HttpClientModule } from "@angular/common/http";
 e colar, Em import do toolbar copiar o (HttpClientModule) e colar abaixo no imports:[] e salvar o arquivo.
 
 {NAVEGADOR}
-https://material.angular.io/components/button/api
 import {MatButtonModule} from '@angular/material/button';
+https://material.angular.io/components/button/api
+
 
 {PROJETO}
 -- no arquivo app.module.ts
 e colar, Em import do toolbar copiar o (MatButtonModule) e colar abaixo no imports:[] e salvar o arquivo.
+
+{TERMINAL}
+ng g c components/views/categoria/categoria-create 
+
+
+{PROJETO}
+-- no arquivo app.module.ts
+import {FormsModule} from "@angular/forms";
+e colar, Em import do toolbar copiar o (FormsModule) e colar abaixo no imports:[] e salvar o arquivo.
+
+{NAVEGADOR}
+import {MatInputModule} from '@angular/material/input';
+https://material.angular.io/components/input/api
+https://material.angular.io/components/form-field/overview
+import {MatFormFieldModule} from '@angular/material/form-field';
+
+
+{PROJETO}
+-- no arquivo app.module.ts
+e colar, Em import do toolbar copiar o (MatInputModule) e colar abaixo no imports:[] e salvar o arquivo.
+e colar, Em import do toolbar copiar o (MatFormFieldModule) e colar abaixo no imports:[] e salvar o arquivo.
