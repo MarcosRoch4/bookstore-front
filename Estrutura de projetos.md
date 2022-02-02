@@ -123,3 +123,18 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 -- no arquivo app.module.ts
 e colar, Em import do toolbar copiar o (MatInputModule) e colar abaixo no imports:[] e salvar o arquivo.
 e colar, Em import do toolbar copiar o (MatFormFieldModule) e colar abaixo no imports:[] e salvar o arquivo.
+
+
+{NAVEGADOR}
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+https://material.angular.io/components/snack-bar/overview
+
+
+{PROJETO}
+-- no arquivo app.module.ts
+e colar, Em import do toolbar copiar o (MatSnackBarModule) e colar abaixo no imports:[] e salvar o arquivo.
+
+{TERMINAL}
+ng g c components/views/categoria/categoria-delete 
+
+
