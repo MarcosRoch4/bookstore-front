@@ -106,6 +106,11 @@ e colar, Em import do toolbar copiar o (MatButtonModule) e colar abaixo no impor
 {TERMINAL}
 ng g c components/views/categoria/categoria-create 
 
+{PROJETO}
+--no arquivo app-routing.modules.ts em: 
+path:'categorias/create',
+component: CategoriaCreateComponent
+
 
 {PROJETO}
 -- no arquivo app.module.ts
@@ -136,5 +141,20 @@ e colar, Em import do toolbar copiar o (MatSnackBarModule) e colar abaixo no imp
 
 {TERMINAL}
 ng g c components/views/categoria/categoria-delete 
+
+{PROJETO}
+--no arquivo app-routing.modules.ts em: 
+path:'categorias/delete/:id',
+component: CategoriaDeleteComponent
+
+{TERMINAL}
+ng g c components/views/categoria/categoria-update
+-- e Clicar para importar o component
+
+{PROJETO}
+--no arquivo app-routing.modules.ts em: 
+path:'categorias/update/:id',
+component: CategoriaUpdateComponent
+-- e Clicar para importar o component
 
 
