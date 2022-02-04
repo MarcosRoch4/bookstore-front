@@ -148,7 +148,7 @@ path:'categorias/delete/:id',
 component: CategoriaDeleteComponent
 
 {TERMINAL}
-ng g c components/views/categoria/categoria-update
+ng g c comonents/views/categoria/categoria-update
 -- e Clicar para importar o component
 
 {PROJETO}
@@ -157,4 +157,15 @@ path:'categorias/update/:id',
 component: CategoriaUpdateComponent
 -- e Clicar para importar o component
 
+{TERMINAL}
+ng g c components/views/livro/livro-read-all
 
+{PROJETO}
+--no arquivo app-routing.modules.ts em: 
+path: 'categorias/:id_cat/livros',
+    component: LivroReadAllComponent
+-- e Clicar para importar o component
+--Criar arquivo livro.model.ts na pasta views/livro 
+
+{TERMINAL}
+ng g s components/views/livro/livro
