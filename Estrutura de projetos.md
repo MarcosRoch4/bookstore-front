@@ -169,3 +169,25 @@ path: 'categorias/:id_cat/livros',
 
 {TERMINAL}
 ng g s components/views/livro/livro
+ng g c components/views/livro/livro-create
+
+{PROJETO}
+--no arquivo app-routing.modules.ts em: 
+path: 'categorias/:id_cat/livros',
+    component: LivroReadAllComponent
+-- e Clicar para importar o component
+
+{PROJETO}
+-- No arquivo app.modules.ts
+-- na linha import {FormsModule} from "@angular/forms";
+-- adicionar o o ReactiveFormModule ficando assim: import {FormsModule,ReactiveFormsModule} from "@angular/forms";
+-- nos imports adicionar ReactiveFormsModule
+
+{TERMINAL}
+ng g c components/views/livro/livro-update
+
+{PROJETO}
+--no arquivo app-routing.modules.ts em: 
+path: 'categorias/:id_cat/livros',
+    component: LivroReadAllComponent
+-- e Clicar para importar o component
