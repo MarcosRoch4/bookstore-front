@@ -200,3 +200,13 @@ ng g c components/views/livro/livro-delete
 path: 'categorias/:id_cat/livros',
     component: LivroDeleteComponent
 -- e Clicar para importar o component
+
+{TERMINAL}
+ ng g c components/views/livro/livro-read
+
+
+ {PROJETO}
+--no arquivo app-routing.modules.ts em: 
+path: 'categorias/:id_cat/livros',
+    component: LivroReadComponent
+-- e Clicar para importar o component

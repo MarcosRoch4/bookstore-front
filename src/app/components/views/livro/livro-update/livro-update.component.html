@@ -13,11 +13,11 @@
 
     <mat-form-field class="form">
         <mat-label>Texto</mat-label>
-        <textarea matInput [(ngModel)]="livro.texto"  [formControl]="texto" required type="text" name="texto" placeholder="Ex.Lorem Ipsum" maxlength="2000000"></textarea>        
+        <textarea matInput [(ngModel)]="livro.texto"  [formControl]="texto" required type="text" name="texto" placeholder="Ex.Lorem Ipsum" maxlength="5000000"></textarea>        
     </mat-form-field>
 
     <div class="buttons">
-        <button  (click)="update()" [disabled]="getMessage()" class="mat-elevation-z8"  mat-raised-button color="primary">ATUALIZAR</button>
+        <button (click)="update()" [disabled]="getMessage()" class="mat-elevation-z8"  mat-raised-button color="primary">ATUALIZAR</button>
         <button (click)="cancel()" class="mat-elevation-z8"  mat-raised-button color="warn">CANCELAR</button>
     </div>
 
